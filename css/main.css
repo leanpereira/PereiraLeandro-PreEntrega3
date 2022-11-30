@@ -1,0 +1,159 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none; }
+
+* {
+  font-family: sans-serif; }
+
+body {
+  position: relative;
+  padding-bottom: 10px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.486), white); }
+  body h2 {
+    text-align: center;
+    padding: 55px; }
+  body h3 {
+    text-align: center;
+    padding: 125px 65px; }
+  body p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px; }
+  body ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 0 0 0; }
+  body div img {
+    width: 300px;
+    border-radius: 15px; }
+  body #payout {
+    font-size: 35px;
+    color: red; }
+  body #featuredProducts {
+    text-align: center;
+    padding: 25px 0 0 0; }
+  body #aboutUs {
+    text-align: center;
+    font-size: 55px; }
+  body .aboutUsText {
+    text-align: left;
+    margin: 15px;
+    padding: 25px; }
+  body #payout {
+    font-size: 35px;
+    color: red; }
+
+header .header-logo {
+  width: 100px;
+  margin: 0px;
+  padding: 0px; }
+
+header a {
+  margin: 10px; }
+
+header nav.navbar {
+  background-color: #969090; }
+
+header .navbar-brand {
+  font-size: 55px;
+  margin: -60px;
+  text-decoration: none;
+  list-style-type: none; }
+
+form {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 100 60; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
+  footer .media-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0 25px 0 0; }
+  footer #sectionCopy {
+    padding: 5px; }
+
+main .container {
+  border-radius: 25px; }
+
+main .container-fluid {
+  width: 100%; }
+
+main .card-title {
+  margin: 0;
+  padding: 15px; }
+
+main .card-button {
+  background-color: orangered;
+  padding: 15px 20px;
+  border-radius: 9px;
+  text-decoration: none;
+  border: 0; }
+  main .card-button:active {
+    background-color: #d17d5e; }
+
+main #cardProduct {
+  text-align: center;
+  align-items: center;
+  margin: 280px;
+  padding: 25px;
+  background-color: #969090;
+  width: 60%; }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%; }
+    body div img {
+      width: 170px;
+      height: 110px;
+      align-items: center; }
+  header .header-logo {
+    width: 80px;
+    height: 80px; }
+  header .navbar-brand {
+    font-size: 25px;
+    margin: 0; }
+  main #cardProduct {
+    text-align: center;
+    align-items: center;
+    margin: 90px;
+    padding: 10px;
+    background-color: #969090;
+    width: 60%; }
+    main #cardProduct .card-title {
+      padding: 45px 30px; }
+    main #cardProduct .card-button {
+      padding: 10px 15px; }
+  main .aboutUsText {
+    margin: 20px;
+    padding: 35px; }
+  /* #cardProduct{
+        text-align: center;
+        margin: 30px;
+        padding: 0px;   
+    } */
+  footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0; }
+    footer .media-logo {
+      display: flex;
+      justify-content: space-between;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      margin: 0 25px 0 0; } }
