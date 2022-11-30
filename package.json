@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leanpereira/preEntrega2-PereiraLeandro.git"
+    "url": "git+https://github.com/leanpereira/PereiraLeandro-PreEntrega3.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leanpereira/preEntrega2-PereiraLeandro/issues"
+    "url": "https://github.com/leanpereira/PereiraLeandro-PreEntrega3/issues"
   },
-  "homepage": "https://github.com/leanpereira/preEntrega2-PereiraLeandro#readme",
+  "homepage": "https://github.com/leanpereira/PereiraLeandro-PreEntrega3#readme",
   "keywords": [],
   "description": "",
   "devDependencies": {
