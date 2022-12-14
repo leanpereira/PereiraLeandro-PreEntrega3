@@ -20,7 +20,7 @@ body {
     padding: 125px 65px; }
   body p {
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     padding: 0px; }
   body ul {
     display: flex;
@@ -81,7 +81,8 @@ footer {
     height: 35px;
     padding: 0;
     margin: 0 25px 0 0; }
-  footer #sectionCopy {
+  footer section .sectionCopy {
+    font-size: 10px;
     padding: 5px; }
 
 main .container {
@@ -116,6 +117,8 @@ main #cardProduct {
       width: 170px;
       height: 110px;
       align-items: center; }
+    body .sectioncopy {
+      font-size: 10px; }
   header .header-logo {
     width: 80px;
     height: 80px; }
@@ -146,4 +149,6 @@ main #cardProduct {
       width: 30px;
       height: 30px;
       padding: 0;
-      margin: 0 25px 0 0; } }
+      margin: 0 25px 0 0; }
+    footer .section-copy {
+      font-size: 20px; } }
