@@ -15,7 +15,7 @@ body{
     p{
         text-align: center;
         font-size: 5px + 10px;
-        padding: 0px;
+        padding: 0 5px 0 5px;
         
     }
     ul{
@@ -48,7 +48,8 @@ body{
         font-size: 55px;
     }
     
-    .aboutUsText{
+    p .about-us-text{
+        font-size: 25px;
         text-align: left;
         margin: 15px;
         padding: 25px;

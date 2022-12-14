@@ -21,7 +21,7 @@ body {
   body p {
     text-align: center;
     font-size: 15px;
-    padding: 0px; }
+    padding: 0 0 0 5px; }
   body ul {
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,8 @@ body {
   body #aboutUs {
     text-align: center;
     font-size: 55px; }
-  body .aboutUsText {
+  body p .about-us-text {
+    font-size: 25px;
     text-align: left;
     margin: 15px;
     padding: 25px; }
