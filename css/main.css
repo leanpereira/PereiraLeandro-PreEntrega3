@@ -14,14 +14,14 @@ body {
   background-image: radial-gradient(rgba(0, 0, 0, 0.486), white); }
   body h2 {
     text-align: center;
-    padding: 55px; }
+    padding: 45px; }
   body h3 {
     text-align: center;
     padding: 125px 65px; }
   body p {
     text-align: center;
     font-size: 15px;
-    padding: 0 0 0 5px; }
+    padding: 0 5px 0 5px; }
   body ul {
     display: flex;
     justify-content: space-between;
@@ -37,8 +37,7 @@ body {
     text-align: center;
     padding: 25px 0 0 0; }
   body #aboutUs {
-    text-align: center;
-    font-size: 55px; }
+    font-size: 35px; }
   body p .about-us-text {
     font-size: 25px;
     text-align: left;
